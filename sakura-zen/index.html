@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCP - Sakura Zen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Serif+JP:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="zen-header">
+        <nav class="zen-nav">
+            <div class="zen-logo">
+                <svg class="cherry-blossom" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                    <path d="M2 17l10 5 10-5"/>
+                    <path d="M2 12l10 5 10-5"/>
+                </svg>
+                <span>MCP</span>
+            </div>
+            <div class="zen-nav-links">
+                <a href="#about">About</a>
+                <a href="#guide">Guide</a>
+                <a href="#servers">Servers</a>
+                <a href="#community">Community</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="zen-main">
+        <section class="zen-hero">
+            <div class="zen-container">
+                <div class="haiku-intro">
+                    <h1 class="zen-title">
+                        Model Context
+                        <br>
+                        <span class="accent">Protocol</span>
+                    </h1>
+                    <div class="zen-subtitle haiku-text">
+                        Connect AI minds<br>
+                        To the world's vast knowledge streams—<br>
+                        Context flows like spring
+                    </div>
+                </div>
+                
+                <div class="zen-actions">
+                    <a href="#start" class="blossom-btn primary">Begin Journey</a>
+                    <a href="#learn" class="blossom-btn secondary">Learn More</a>
+                </div>
+
+                <div class="zen-visual">
+                    <div class="connection-garden">
+                        <div class="data-stone">
+                            <div class="stone-icon">📊</div>
+                            <span>Data</span>
+                        </div>
+                        <div class="zen-path"></div>
+                        <div class="protocol-stone">
+                            <div class="stone-icon">⚡</div>
+                            <span>MCP</span>
+                        </div>
+                        <div class="zen-path"></div>
+                        <div class="ai-stone">
+                            <div class="stone-icon">🤖</div>
+                            <span>AI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="zen-philosophy">
+            <div class="zen-container">
+                <div class="philosophy-header">
+                    <h2>The Way of Context</h2>
+                    <p class="zen-description">
+                        Like a bridge connects distant shores, MCP connects artificial minds 
+                        to the flowing streams of human knowledge.
+                    </p>
+                </div>
+
+                <div class="zen-principles">
+                    <article class="zen-card">
+                        <div class="card-icon">🌸</div>
+                        <h3>Simplicity</h3>
+                        <p>
+                            Complex integrations made simple. One protocol, infinite possibilities.
+                            Beauty emerges from elegant constraint.
+                        </p>
+                    </article>
+
+                    <article class="zen-card">
+                        <div class="card-icon">🌊</div>
+                        <h3>Flow</h3>
+                        <p>
+                            Information flows naturally between systems. No barriers, no friction.
+                            Context moves like water finding its path.
+                        </p>
+                    </article>
+
+                    <article class="zen-card">
+                        <div class="card-icon">🕊️</div>
+                        <h3>Harmony</h3>
+                        <p>
+                            AI and human knowledge work in perfect balance. Technology serves wisdom,
+                            not the reverse.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="zen-guide">
+            <div class="zen-container">
+                <div class="guide-content">
+                    <div class="guide-text">
+                        <h2>The Path Forward</h2>
+                        <p class="zen-description">
+                            Beginning is simple. Like planting a seed, small actions lead to great growth.
+                        </p>
+                        
+                        <div class="zen-steps">
+                            <div class="step">
+                                <span class="step-number">一</span>
+                                <div class="step-content">
+                                    <h4>Install</h4>
+                                    <p>Add MCP to your project with a single command</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">二</span>
+                                <div class="step-content">
+                                    <h4>Connect</h4>
+                                    <p>Link your data sources with minimal configuration</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">三</span>
+                                <div class="step-content">
+                                    <h4>Flow</h4>
+                                    <p>Watch as context flows seamlessly to your AI</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="code-garden">
+                        <div class="code-stone">
+                            <div class="code-header">
+                                <span class="filename">server.js</span>
+                                <div class="zen-dots">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <pre class="zen-code"><code>import { Server } from '@modelcontextprotocol/sdk';
+
+const server = new Server({
+  name: 'zen-context',
+  version: '1.0.0'
+});
+
+// Connect to your data stream
+server.setRequestHandler('resources/list', async () => ({
+  resources: [{
+    uri: 'context://wisdom',
+    name: 'Knowledge Stream',
+    mimeType: 'application/json'
+  }]
+}));
+
+// Begin the flow
+await server.connect();</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="zen-community">
+            <div class="zen-container">
+                <div class="community-header">
+                    <h2>The Garden Community</h2>
+                    <p class="zen-description">
+                        Knowledge grows when shared. Join developers cultivating the future of AI context.
+                    </p>
+                </div>
+
+                <div class="community-stats">
+                    <div class="stat-stone">
+                        <div class="stat-number">10k+</div>
+                        <div class="stat-label">Developers</div>
+                    </div>
+                    <div class="stat-stone">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Servers</div>
+                    </div>
+                    <div class="stat-stone">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Languages</div>
+                    </div>
+                </div>
+
+                <div class="zen-actions center">
+                    <a href="#github" class="blossom-btn primary">Join on GitHub</a>
+                    <a href="#discord" class="blossom-btn secondary">Discord Garden</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="zen-footer">
+        <div class="zen-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="zen-logo">
+                        <svg class="cherry-blossom" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                        </svg>
+                        <span>MCP</span>
+                    </div>
+                    <p class="footer-wisdom">
+                        "The best way to connect minds is to first understand the way."
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Learn</h4>
+                        <a href="#docs">Documentation</a>
+                        <a href="#examples">Examples</a>
+                        <a href="#tutorials">Tutorials</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Connect</h4>
+                        <a href="#github">GitHub</a>
+                        <a href="#discord">Discord</a>
+                        <a href="#twitter">Twitter</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Build</h4>
+                        <a href="#servers">Servers</a>
+                        <a href="#tools">Tools</a>
+                        <a href="#api">API</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Model Context Protocol • Open source with ❤️</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

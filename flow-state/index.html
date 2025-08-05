@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCP - Flow State Design System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="flow-header">
+        <div class="flow-container">
+            <div class="flow-nav">
+                <div class="flow-logo">
+                    <svg class="flow-logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                        <path d="M2 17l10 5 10-5"/>
+                        <path d="M2 12l10 5 10-5"/>
+                    </svg>
+                    <span class="flow-logo-text">MCP</span>
+                </div>
+                <nav class="flow-navigation">
+                    <a href="#" class="flow-nav-link">Documentation</a>
+                    <a href="#" class="flow-nav-link">Examples</a>
+                    <a href="#" class="flow-nav-link">Servers</a>
+                    <a href="#" class="flow-nav-link">Community</a>
+                </nav>
+                <button class="flow-nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="flow-main">
+        <section class="flow-hero">
+            <div class="flow-container">
+                <div class="flow-hero-content">
+                    <h1 class="flow-hero-title">
+                        Connect Your Apps to <span class="flow-gradient-text">AI Systems</span>
+                    </h1>
+                    <p class="flow-hero-subtitle">
+                        Model Context Protocol enables seamless integration between AI applications and data sources. 
+                        Build powerful, context-aware AI experiences that adapt to your workflow.
+                    </p>
+                    <div class="flow-hero-actions">
+                        <button class="flow-btn flow-btn-primary">
+                            Get Started
+                            <svg class="flow-btn-icon" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                            </svg>
+                        </button>
+                        <button class="flow-btn flow-btn-secondary">
+                            View Documentation
+                        </button>
+                    </div>
+                </div>
+                <div class="flow-hero-visual">
+                    <div class="flow-connection-diagram">
+                        <div class="flow-node flow-node-app">
+                            <div class="flow-node-icon">📱</div>
+                            <span>Your App</span>
+                        </div>
+                        <div class="flow-connector">
+                            <div class="flow-pulse"></div>
+                        </div>
+                        <div class="flow-node flow-node-mcp">
+                            <div class="flow-node-icon">⚡</div>
+                            <span>MCP</span>
+                        </div>
+                        <div class="flow-connector">
+                            <div class="flow-pulse"></div>
+                        </div>
+                        <div class="flow-node flow-node-data">
+                            <div class="flow-node-icon">🗃️</div>
+                            <span>Data Source</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="flow-features">
+            <div class="flow-container">
+                <div class="flow-section-header">
+                    <h2 class="flow-section-title">Seamless Integration</h2>
+                    <p class="flow-section-subtitle">
+                        Connect any data source to any AI application with standardized protocols
+                    </p>
+                </div>
+                
+                <div class="flow-feature-grid">
+                    <article class="flow-feature-card">
+                        <div class="flow-feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                            </svg>
+                        </div>
+                        <h3 class="flow-feature-title">Real-time Context</h3>
+                        <p class="flow-feature-description">
+                            Provide AI systems with live, relevant context from your applications and data sources.
+                        </p>
+                    </article>
+                    
+                    <article class="flow-feature-card">
+                        <div class="flow-feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                                <circle cx="9" cy="9" r="2"/>
+                                <path d="M21 15l-3.086-3.086a2 2 0 00-2.828 0L8 21"/>
+                            </svg>
+                        </div>
+                        <h3 class="flow-feature-title">Universal Protocol</h3>
+                        <p class="flow-feature-description">
+                            Standard interface that works across different AI platforms and data sources.
+                        </p>
+                    </article>
+                    
+                    <article class="flow-feature-card">
+                        <div class="flow-feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                        </div>
+                        <h3 class="flow-feature-title">Secure by Design</h3>
+                        <p class="flow-feature-description">
+                            Built-in security features ensure your data remains protected during AI interactions.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="flow-code-example">
+            <div class="flow-container">
+                <div class="flow-code-content">
+                    <div class="flow-code-info">
+                        <h2 class="flow-code-title">Simple Implementation</h2>
+                        <p class="flow-code-description">
+                            Get started with just a few lines of code. MCP handles the complexity 
+                            of AI-data integration so you can focus on building great experiences.
+                        </p>
+                        <ul class="flow-code-features">
+                            <li>TypeScript support</li>
+                            <li>Multiple transport layers</li>
+                            <li>Extensible architecture</li>
+                            <li>Production ready</li>
+                        </ul>
+                    </div>
+                    <div class="flow-code-block">
+                        <div class="flow-code-header">
+                            <div class="flow-code-tabs">
+                                <button class="flow-code-tab flow-code-tab-active">server.ts</button>
+                                <button class="flow-code-tab">client.ts</button>
+                            </div>
+                        </div>
+                        <pre class="flow-code"><code>import { Server } from '@modelcontextprotocol/sdk/server/index.js';
+import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
+
+const server = new Server(
+  {
+    name: 'example-server',
+    version: '0.1.0',
+  },
+  {
+    capabilities: {
+      resources: {},
+      tools: {},
+    },
+  }
+);
+
+// Add your resources and tools
+server.setRequestHandler(ListResourcesRequestSchema, async () => {
+  return {
+    resources: [
+      {
+        uri: 'file://example.txt',
+        name: 'Example Resource',
+        mimeType: 'text/plain',
+      },
+    ],
+  };
+});
+
+// Start the server
+const transport = new StdioServerTransport();
+await server.connect(transport);</code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="flow-cta">
+            <div class="flow-container">
+                <div class="flow-cta-content">
+                    <h2 class="flow-cta-title">Ready to Connect?</h2>
+                    <p class="flow-cta-description">
+                        Join developers building the next generation of AI-powered applications
+                    </p>
+                    <div class="flow-cta-actions">
+                        <button class="flow-btn flow-btn-primary flow-btn-large">
+                            Start Building
+                        </button>
+                        <button class="flow-btn flow-btn-outline flow-btn-large">
+                            Join Community
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="flow-footer">
+        <div class="flow-container">
+            <div class="flow-footer-content">
+                <div class="flow-footer-brand">
+                    <div class="flow-logo">
+                        <svg class="flow-logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                        </svg>
+                        <span class="flow-logo-text">MCP</span>
+                    </div>
+                    <p class="flow-footer-description">
+                        Model Context Protocol - Connecting AI to the world
+                    </p>
+                </div>
+                
+                <div class="flow-footer-links">
+                    <div class="flow-footer-column">
+                        <h3 class="flow-footer-title">Documentation</h3>
+                        <a href="#" class="flow-footer-link">Quick Start</a>
+                        <a href="#" class="flow-footer-link">API Reference</a>
+                        <a href="#" class="flow-footer-link">Examples</a>
+                        <a href="#" class="flow-footer-link">Best Practices</a>
+                    </div>
+                    
+                    <div class="flow-footer-column">
+                        <h3 class="flow-footer-title">Community</h3>
+                        <a href="#" class="flow-footer-link">GitHub</a>
+                        <a href="#" class="flow-footer-link">Discord</a>
+                        <a href="#" class="flow-footer-link">Twitter</a>
+                        <a href="#" class="flow-footer-link">Blog</a>
+                    </div>
+                    
+                    <div class="flow-footer-column">
+                        <h3 class="flow-footer-title">Resources</h3>
+                        <a href="#" class="flow-footer-link">Server Directory</a>
+                        <a href="#" class="flow-footer-link">Tools</a>
+                        <a href="#" class="flow-footer-link">Integrations</a>
+                        <a href="#" class="flow-footer-link">Support</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flow-footer-bottom">
+                <p class="flow-footer-copyright">
+                    © 2024 Model Context Protocol. Open source and community driven.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

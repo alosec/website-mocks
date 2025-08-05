@@ -1,0 +1,27 @@
+# Website Mocks Project Rules
+
+## Navigation
+- Main catalog: `mock-design-overview.md` - start here for all mockup browsing
+- Design folders contain complete implementations (HTML/CSS/JS)
+- Memory bank in `memory-bank/` for project documentation
+
+## Framework Requirements
+- Open source only (MIT/Apache/GPL licenses)
+- No corporate/business aesthetics
+- Creative, indie, experimental approaches preferred
+- Static implementation (no build tools required)
+
+## File Organization
+- Keep design-mock-details.md for technical specs
+- Include proper framework attribution
+- Maintain consistent naming patterns
+- All mockups focus on MCP website content
+
+## Development Priorities
+1. Visual creativity over corporate polish
+2. Framework diversity and experimentation  
+3. Open source compliance and attribution
+4. Functional demonstrations of each aesthetic
+
+## Key Insight
+This project showcases alternatives to traditional business website design through creative CSS framework exploration.
