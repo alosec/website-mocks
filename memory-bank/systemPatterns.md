@@ -22,9 +22,19 @@
 - **Framework Attribution**: Clear documentation of source frameworks
 
 ## Navigation System
-- `mock-design-overview.md` serves as main catalog
-- Direct links between catalog and implementation folders
-- Consistent internal linking structure
+- **Primary Navigator**: `index.html` - Sakura.css styled parent site
+- **Backup Catalog**: `mock-design-overview.md` - Detailed markdown specifications
+- **Status Indicators**: ✅ Complete | 🚧 In Progress | 📋 Planned
+- **Direct Linking**: All links point to specific `mockup/index.html` files
+- **Responsive Design**: Mobile-friendly navigation structure
+
+## Implementation Pipeline
+1. **Research Framework**: Study authentic implementation patterns
+2. **Create Files**: `index.html`, `style.css`, `script.js`, `design-mock-details.md`
+3. **Content Integration**: MCP-focused content adapted to framework aesthetic
+4. **Testing**: Responsive design and accessibility verification
+5. **Status Update**: Update navigator indicators upon completion
+6. **Git Commit**: Document progress with conventional commit format
 
 ---
-*System Architecture: Static file organization with catalog navigation*
+*System Architecture: Static file organization with dual navigation (HTML + Markdown)*
